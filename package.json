@@ -26,5 +26,9 @@
   },
   "dependencies": {
     "http-server": "^0.8.5"
+    "bower": "1.6.8"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
   }
 }
