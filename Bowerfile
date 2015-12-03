@@ -1,0 +1,7 @@
+asset 'angular'
+asset 'angular-resource'
+asset 'angular-mocks'
+asset 'angular-route'
+asset 'bootstrap'
+asset 'bootstrap-sass-official'
+

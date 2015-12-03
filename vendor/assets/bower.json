@@ -1,0 +1,14 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "angular": "latest",
+    "angular-resource": "latest",
+    "angular-mocks": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "bootstrap-sprockets": "latest",
+    "bootstrap-sass-official": "latest"
+  },
+  "resolutions": {
+  }
+}

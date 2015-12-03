@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="GitUserSearch">
+  <head>
+    <meta charset="utf-8">
+    <title>Github user search</title>
+    <%= javascript_include_tag "jquery.js" %>
+    <%= javascript_include_tag "angular.js" %>
+    <%= javascript_include_tag "angular-resource.js" %>
+    <%= javascript_include_tag "app.js" %>
+    <%= javascript_include_tag "searchFactory.js" %>
+    <%= javascript_include_tag "gitUserSearchController.js" %>
+  </head>
+
+  <body ng-controller="GitUserSearchController as searchCtrl">
+    <div>
+      <form class="form-horizontal">
+        <input type="text"
+          ng-model="searchCtrl.searchTerm"
+          ng-change="searchCtrl.doSearch()"
+          ng-model-options="{ updateOn: 'default blur', debounce: {'default': 500, 'blur': 0} }">
+      <button class="btn" ng-click="searchCtrl.doSearch()">Search</button>
+      </form>
+        <ul class="list-group">
+        <li ng-repeat="user in searchCtrl.searchResult.items">
+          <img ng-src="{{user.avatar_url}}&s=50">
+          <a ng-href="{{user.html_url}}">{{user.login}}</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
