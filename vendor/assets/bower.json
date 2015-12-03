@@ -6,9 +6,6 @@
     "angular-mocks": "latest",
     "angular-route": "latest",
     "bootstrap": "latest",
-    "bootstrap-sprockets": "latest",
     "bootstrap-sass-official": "latest"
-  },
-  "resolutions": {
   }
 }
