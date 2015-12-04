@@ -6526,3 +6526,24 @@ Started GET "/assets/angular/angular.self-d7c642a2239d433e219a2df47d65f3290d6ec4
 
 
 Started GET "/assets/gitUserSearchController.self-e3e5dfe885fbd25d6dcf235775e97fefb58b3e23692ee7721f074bc26080d604.js?body=1" for ::1 at 2015-12-03 13:49:27 +0000
+
+
+Started GET "/" for ::1 at 2015-12-04 10:19:18 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (228.8ms)
+Completed 200 OK in 241ms (Views: 240.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/searchFactory.self-85317c56a7dbe7e67dd13706af3a259d035d15f4e105629f351582cb879d3d86.js?body=1" for ::1 at 2015-12-04 10:19:19 +0000
+
+
+Started GET "/assets/app.self-cf09cdc25aabf5dc11efb9601dc288ac06eb347afe44e1b85b80431b81e08919.js?body=1" for ::1 at 2015-12-04 10:19:19 +0000
+
+
+Started GET "/assets/gitUserSearchController.self-e3e5dfe885fbd25d6dcf235775e97fefb58b3e23692ee7721f074bc26080d604.js?body=1" for ::1 at 2015-12-04 10:19:19 +0000
+
+
+Started GET "/" for ::1 at 2015-12-04 12:19:39 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (271.8ms)
+Completed 200 OK in 294ms (Views: 284.6ms | ActiveRecord: 0.0ms)
