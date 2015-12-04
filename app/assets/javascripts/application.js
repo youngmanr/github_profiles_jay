@@ -13,6 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require angular/angular
+// = require angular-resource/angular-resource
+// = require angular-mocks/angular-mocks
+// = require angular-route/angular-route
 //= require bootstrap
 //= require app
 //= require_tree .
+
+
